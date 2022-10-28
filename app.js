@@ -224,7 +224,7 @@ output.tasks.forEach(function (element) {
     font-weight: 600;
     font-size: 1.2rem;padding:8px">${title}</h5>
 <p style="margin:10px">${description}</p>
-   <div id="accordion-${ele.asset_id}" style="float:right;height:20px;margin:10px"><img src="image/arrow-down-sign-to-navigate.png" id="arrow-down-${ele.asset_id}" width="10px" height="10px" alt="arrowdownsign"/></div> </div>
+   <div id="accordion-${ele.asset_id}" style="float:right;height:20px;margin:10px"><img src="https://raw.githubusercontent.com/shalinibhatt/DeepThought/master/image/arrow-down-sign-to-navigate.png" id="arrow-down-${ele.asset_id}" width="10px" height="10px" alt="arrowdownsign"/></div> </div>
     `;
   });
 });
@@ -257,7 +257,7 @@ function closed() {
       <img
         width="40px"
         style="float: right; margin: 5px"
-        src="image/one.png"
+        src="https://raw.githubusercontent.com/shalinibhatt/DeepThought/master/image/one.png"
         alt="one"
       />
     </div>`;
@@ -277,7 +277,7 @@ function arrowdown() {
     .addEventListener("click", function () {
       document.getElementById(
         `accordion-${one}`
-      ).innerHTML = `<img src="image/upload.png" id="arrow-up-${one}" width="10px" height="10px" alt="arrowdownsign"/>`;
+      ).innerHTML = `<img src="https://raw.githubusercontent.com/shalinibhatt/DeepThought/master/image/upload.png" id="arrow-up-${one}" width="10px" height="10px" alt="arrowdownsign"/>`;
       document.getElementById(`accordion-${one}`).style.height = "100px";
 
       arrowup();
@@ -289,7 +289,7 @@ function arrowup() {
     .addEventListener("click", function () {
       document.getElementById(
         `accordion-${one}`
-      ).innerHTML = `<img src="image/arrow-down-sign-to-navigate.png" id="arrow-down-${one}" width="10px" height="10px" alt="arrowdownsign"/>`;
+      ).innerHTML = `<img src="https://raw.githubusercontent.com/shalinibhatt/DeepThought/master/image/arrow-down-sign-to-navigate.png" id="arrow-down-${one}" width="10px" height="10px" alt="arrowdownsign"/>`;
       document.getElementById(`accordion-${one}`).style.height = "20px";
       arrowdown();
     });
@@ -301,7 +301,7 @@ function arrowtwodown() {
     .addEventListener("click", function () {
       document.getElementById(
         `accordion-${two}`
-      ).innerHTML = `<img src="image/upload.png" id="arrow-up-${two}" width="10px" height="10px" alt="arrowdownsign"/>`;
+      ).innerHTML = `<img src="https://raw.githubusercontent.com/shalinibhatt/DeepThought/master/image/upload.png" id="arrow-up-${two}" width="10px" height="10px" alt="arrowdownsign"/>`;
       document.getElementById(`accordion-${two}`).style.height = "100px";
 
       arrowtwoup();
@@ -313,7 +313,7 @@ function arrowtwoup() {
     .addEventListener("click", function () {
       document.getElementById(
         `accordion-${two}`
-      ).innerHTML = `<img src="image/arrow-down-sign-to-navigate.png" id="arrow-down-${two}" width="10px" height="10px" alt="arrowdownsign"/>`;
+      ).innerHTML = `<img src="https://raw.githubusercontent.com/shalinibhatt/DeepThought/master/image/arrow-down-sign-to-navigate.png" id="arrow-down-${two}" width="10px" height="10px" alt="arrowdownsign"/>`;
       document.getElementById(`accordion-${two}`).style.height = "20px";
       arrowtwodown();
     });
@@ -324,47 +324,47 @@ document
   .addEventListener("click", function () {
     document.getElementById(
       `accordion-${three}`
-    ).innerHTML = `<img src="image/upload.png" id="arrow-up" width="10px" height="10px" alt="arrowdownsign"/>`;
+    ).innerHTML = `<img src="https://raw.githubusercontent.com/shalinibhatt/DeepThought/master/image/upload.png" id="arrow-up" width="10px" height="10px" alt="arrowdownsign"/>`;
   });
 document
   .getElementById(`arrow-down-${four}`)
   .addEventListener("click", function () {
     document.getElementById(
       `accordion-${four}`
-    ).innerHTML = `<img src="image/upload.png" id="arrow-up" width="10px" height="10px" alt="arrowdownsign"/>`;
+    ).innerHTML = `<img src="https://raw.githubusercontent.com/shalinibhatt/DeepThought/master/image/upload.png" id="arrow-up" width="10px" height="10px" alt="arrowdownsign"/>`;
   });
 document
   .getElementById(`arrow-down-${five}`)
   .addEventListener("click", function () {
     document.getElementById(
       `accordion-${five}`
-    ).innerHTML = `<img src="image/upload.png" id="arrow-up" width="10px" height="10px" alt="arrowdownsign"/>`;
+    ).innerHTML = `<img src="https://raw.githubusercontent.com/shalinibhatt/DeepThought/master/image/upload.png" id="arrow-up" width="10px" height="10px" alt="arrowdownsign"/>`;
   });
 document
   .getElementById(`arrow-down-${six}`)
   .addEventListener("click", function () {
     document.getElementById(
       `accordion-${six}`
-    ).innerHTML = `<img src="image/upload.png" id="arrow-up" width="10px" height="10px" alt="arrowdownsign"/>`;
+    ).innerHTML = `<img src="https://raw.githubusercontent.com/shalinibhatt/DeepThought/master/image/upload.png" id="arrow-up" width="10px" height="10px" alt="arrowdownsign"/>`;
   });
 document
   .getElementById(`arrow-down-${seven}`)
   .addEventListener("click", function () {
     document.getElementById(
       `accordion-${seven}`
-    ).innerHTML = `<img src="image/upload.png" id="arrow-up" width="10px" height="10px" alt="arrowdownsign"/>`;
+    ).innerHTML = `<img src="https://raw.githubusercontent.com/shalinibhatt/DeepThought/master/image/upload.png" id="arrow-up" width="10px" height="10px" alt="arrowdownsign"/>`;
   });
 document
   .getElementById(`arrow-down-${eight}`)
   .addEventListener("click", function () {
     document.getElementById(
       `accordion-${eight}`
-    ).innerHTML = `<img src="image/upload.png" id="arrow-up" width="10px" height="10px" alt="arrowdownsign"/>`;
+    ).innerHTML = `<img src="https://raw.githubusercontent.com/shalinibhatt/DeepThought/master/image/upload.png" id="arrow-up" width="10px" height="10px" alt="arrowdownsign"/>`;
   });
 document
   .getElementById(`arrow-down-${nine}`)
   .addEventListener("click", function () {
     document.getElementById(
       `accordion-${nine}`
-    ).innerHTML = `<img src="image/upload.png" id="arrow-up" width="10px" height="10px" alt="arrowdownsign"/>`;
+    ).innerHTML = `<img src="https://raw.githubusercontent.com/shalinibhatt/DeepThought/master/image/upload.png" id="arrow-up" width="10px" height="10px" alt="arrowdownsign"/>`;
   });
